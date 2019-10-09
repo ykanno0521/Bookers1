@@ -1,5 +1,5 @@
 <h1>Books</h1>
-<table>
+<table width="200">
 	<tbody>
 		<tr>
 			<th>title</th>
@@ -32,9 +32,9 @@
   </div>
 <% end %>
 <%= form_for(@book) do |f| %>
-    <h5>Title</h5>
+    </p>Title</p>
     <%= f.text_field :title %>
-    <h5>body</h5>
+    <p>body</p>
     <%= f.text_area :body %>
     <br>
     <%= f.submit 'createbook' %>
